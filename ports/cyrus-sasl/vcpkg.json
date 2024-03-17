@@ -1,0 +1,21 @@
+{
+  "name": "cyrus-sasl",
+  "version": "2.1.28",
+  "description": "This is the Cyrus SASL API implementation. It can be used on the client or server side to provide authentication and authorization services. See RFC 4422 for more information.",
+  "homepage": "https://github.com/cyrusimap/cyrus-sasl",
+  "license": "BSD-4-Clause",
+  "supports": "!uwp",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true,
+      "platform": "windows"
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true,
+      "platform": "windows"
+    },
+    "heimdal"
+  ]
+}
