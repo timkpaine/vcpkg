@@ -5,9 +5,14 @@ vcpkg_from_github(
     SHA512 f8402e422e8278be363d4630f264885230f11dcf969ffeafefc88c0ac5d0761dd81e7ee5d50bab1d4363d0783600bb974181db78609c021bde4406d8fcf1dbc5
     HEAD_REF master
     PATCHES
+        # Backport https://github.com/MikePopoloski/slang/commit/7fe219e45e289ad85be64e6b2f0bb19afeb7df7b
         fix-get-target-property.patch
+        # Backport https://github.com/MikePopoloski/slang/commit/6b967fcd89f366b3e0c52cf2128f297bdc665d02
         fix-public-dependencies.patch
+        # Backport https://github.com/MikePopoloski/slang/commit/5a898b4b9225d281902fcd59fe4732b1561677d2
         fmt-12.patch
+        fix-packaged-abi.patch
+        fix-pkgconfig.patch
         rename-cmake-package.patch
         use-expected-lite.patch
 )
