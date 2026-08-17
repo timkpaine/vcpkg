@@ -11,7 +11,6 @@ vcpkg_from_github(
         fix-public-dependencies.patch
         # Backport https://github.com/MikePopoloski/slang/commit/5a898b4b9225d281902fcd59fe4732b1561677d2
         fmt-12.patch
-        fix-packaged-abi.patch
         fix-pkgconfig.patch
         rename-cmake-package.patch
         use-expected-lite.patch
